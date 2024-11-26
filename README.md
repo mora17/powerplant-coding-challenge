@@ -6,7 +6,7 @@ Follow the next steps to launch the API:
 * Pull this repository
 * Build Docker image: `docker build -t powerplant .`
 * Run image: `docker run -p 8888:8888 powerplant:latest`
-* You can now sent post request to http://0.0.0.0:8888/productionplan/ . For instance using `curl`:
+* You can now send post requests to http://0.0.0.0:8888/productionplan/ . For instance using `curl`:
 ```
 curl -X POST http://0.0.0.0:8888/productionplan/ -H "Content-Type: application/json" -d '{
     "load": 480,
